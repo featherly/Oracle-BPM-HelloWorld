@@ -2,7 +2,7 @@
 <taskDefinition targetNamespace="http://xmlns.oracle.com/HelloWorld_JF/HelloWorldProject/SayHello" xmlns:xp20="http://www.oracle.com/XSL/Transform/java/oracle.tip.pc.services.functions.Xpath20" xmlns:ora="http://schemas.oracle.com/xpath/extension" xmlns:oraext="http://www.oracle.com/XSL/Transform/java/oracle.tip.pc.services.functions.ExtFunc" xmlns:task="http://xmlns.oracle.com/bpel/workflow/task" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://xmlns.oracle.com/bpel/workflow/taskDefinition" xmlns:bpm="http://xmlns.oracle.com/bpmn20/extensions">
    <name>SayHello</name>
    <id>${domain_id}_${process_id}_${process_revision}_SayHello</id>
-   <title type="STATIC"><value>Please Enter a Hello Message - JHF</value></title>
+   <title type="STATIC"><value>Please Enter a Hello Message</value></title>
    <priority>3</priority>
    <process processId="" processVersion=""/>
    <routingSlip xmlns="http://xmlns.oracle.com/bpel/workflow/routingSlip">
